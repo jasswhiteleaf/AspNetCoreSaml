@@ -1,0 +1,46 @@
+﻿@page
+@model MainApp.Pages.Main.IndexModel
+@{
+}
+<div class="container shadow min-vh-100 py-2">
+    <div class="container rounded network_wrapper col-sm p-2 ">
+        <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#person"><i class="fa-solid fa-person-simple"></i><i class="fa-solid fa-person"></i>Person</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#workgroup"><i class="fa-solid fa-people-group"></i><i class="fa-solid fa-people-line"></i> Workgroup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#address"><i class="fa-solid fa-house-building"></i><i class="fa-solid fa-house"></i><i class="fa-solid fa-people-roof"></i>Address</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#osmail"><i class="fa-solid fa-mailbox"></i><i class="fa-solid fa-envelopes-bulk"></i><i class="fa-solid fa-envelope"></i> O/S Mail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#family"><i class="fa-solid fa-hands-holding-child"></i><i class="fa-solid fa-children"></i> Family</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="card-body tab-content">
+                <div class="tab-pane active" id="person">
+                    <p class=" card-text">Change Static Network settings.</p>
+                </div>
+                <div class="tab-pane" id="workgroup">
+                    <p class=" card-text">Change Static Network settings.</p>
+                </div>
+                <div class="tab-pane" id="address">
+                    <p class=" card-text">Change Static Network settings.</p>
+                </div>
+                <div class="tab-pane" id="osmail">
+                    <p class=" card-text">Change Static Network settings.</p>
+                </div>
+                <div class="tab-pane" id="family">
+                    <p class=" card-text">Change Static Network settings.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
